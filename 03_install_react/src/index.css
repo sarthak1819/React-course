@@ -1,0 +1,29 @@
+*{
+   margin: 0%;
+   padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 161, 161);
+}
+.nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.head{
+    background-color: rgb(12, 12, 12);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
