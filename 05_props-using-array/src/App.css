@@ -1,0 +1,102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #413f3f;
+  
+ 
+
+}
+.card-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 15px;
+}
+.job-card {
+  width: 340px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.job-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.job-title {
+  font-size: 18px;
+  color: #222;
+  margin: 0;
+}
+
+.company-name {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.location {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salary {
+  font-weight: 600;
+  color: #2edd5a;
+}
+
+.apply-btn {
+  background: #f78f18;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #dd1717;
+}

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+#right::-webkit-scrollbar{
+    display: none;
+
+}
+#right{
+    overflow: hidden;
+    animation: scroll 20s linear infinite;
+    will-change: transform;
+}
+
+
